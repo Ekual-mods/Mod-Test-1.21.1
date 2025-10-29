@@ -1,0 +1,7 @@
+// 1.21.1	2025-10-28T22:32:40.1342206	Block States: testmod
+431c83937e0f1a5c05229bf8aac3fe83df17896e assets/testmod/blockstates/echovium_block.json
+197daba3293efb956f5e18056330343e908cc56f assets/testmod/blockstates/echo_gem_block.json
+6aa9aafd197c8a21046305cd4a37cd16088eecc4 assets/testmod/models/block/echovium_block.json
+1ce07bfc5b3aacca250f140877fcc15881b1667f assets/testmod/models/block/echo_gem_block.json
+303be898eeff8fdd9ee81caf5a752b0eaa7ccc57 assets/testmod/models/item/echovium_block.json
+d36b55bde7f901e91fad0c0b7e27f5366b7ef27e assets/testmod/models/item/echo_gem_block.json

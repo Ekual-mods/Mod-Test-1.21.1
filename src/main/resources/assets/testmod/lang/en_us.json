@@ -2,5 +2,10 @@
   "item.testmod.echovium": "Echovium Ingot",
   "item.testmod.echo_gem": "Echo Gem",
 
-  "block.testmod.echovium_block": "Block of Echovium"
+  "block.testmod.echovium_block": "Block of Echovium",
+  "block.testmod.echo_gem_block": "Block of Echo Gem",
+  "block.testmod.echo_catalyst": "Echo Catalyst",
+
+  "creativetab.testmod.echo_items": "Echovium Items",
+  "creativetab.testmod.echo_gear": "Echovium Gear"
 }
