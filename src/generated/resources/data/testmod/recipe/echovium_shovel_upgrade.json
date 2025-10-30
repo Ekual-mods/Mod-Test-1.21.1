@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "testmod:echovium"
+  },
+  "base": {
+    "item": "minecraft:netherite_shovel"
+  },
+  "result": {
+    "count": 1,
+    "id": "testmod:echovium_shovel"
+  },
+  "template": {
+    "item": "testmod:echovium_upgrade_smithing_template"
+  }
+}

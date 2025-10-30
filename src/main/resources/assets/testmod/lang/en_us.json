@@ -1,6 +1,24 @@
 {
   "item.testmod.echovium": "Echovium Ingot",
   "item.testmod.echo_gem": "Echo Gem",
+  "item.testmod.echovium_upgrade_smithing_template": "Smithing Template",
+
+  "item.testmod.echovium_shovel": "Echovium Shovel",
+  "item.testmod.echovium_pickaxe": "Echovium Pickaxe",
+  "item.testmod.echovium_axe": "Echovium Axe",
+  "item.testmod.echovium_hoe": "Echovium Hoe",
+  "item.testmod.echovium_sword": "Echovium Sword",
+
+  "item.testmod.echovium_helmet": "Echovium Helmet",
+  "item.testmod.echovium_chestplate": "Echovium Chestplate",
+  "item.testmod.echovium_leggings": "Echovium Leggings",
+  "item.testmod.echovium_boots": "Echovium Boots",
+
+  "item.testmod.echovium_upgrade.applies_to": "Netherite Equipment",
+  "item.testmod.echovium_upgrade.ingredients": "Echovium Ingot",
+  "item.testmod.echovium_upgrade.title": "Echovium Upgrade",
+  "item.testmod.echovium_upgrade.base_slot_description": "Add netherite armor, weapon, or tool",
+  "item.testmod.echovium_upgrade.additions_slot_description": "Add Echovium Ingot",
 
   "block.testmod.echovium_block": "Block of Echovium",
   "block.testmod.echo_gem_block": "Block of Echo Gem",

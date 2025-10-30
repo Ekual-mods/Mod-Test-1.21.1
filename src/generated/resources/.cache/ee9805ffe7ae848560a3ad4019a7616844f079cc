@@ -1,2 +1,3 @@
-// 1.21.1	2025-10-28T22:32:40.1332212	Tags for minecraft:item mod id testmod
+// 1.21.1	2025-10-29T21:53:39.3027448	Tags for minecraft:item mod id testmod
+fecb61a8e5298bff1fc20f0bdc489060480cb4df data/minecraft/tags/item/trimmable_armor.json
 35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/testmod/tags/item/transformable_items.json

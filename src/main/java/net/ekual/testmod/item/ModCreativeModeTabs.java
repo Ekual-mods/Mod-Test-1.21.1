@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModBlocks.ECHO_GEM_BLOCK.get());
                         output.accept(ModItems.ECHOVIUM.get());
                         output.accept(ModBlocks.ECHOVIUM_BLOCK.get());
+                        output.accept(ModItems.ECHOVIUM_UPGRADE_SMITHING_TEMPLATE.get());
 
                     }).build());
 
@@ -30,8 +31,16 @@ public class ModCreativeModeTabs {
                     .withTabsBefore(ECHO_ITEMS_TAB.getId())
                     .title(Component.translatable("creativetab.testmod.echo_gear"))
                     .displayItems((itemDisplayParameters, output) -> {
-                        output.accept(ModItems.ECHOVIUM.get());
-                        output.accept(ModItems.ECHO_GEM.get());
+                        output.accept(ModItems.ECHOVIUM_SHOVEL.get());
+                        output.accept(ModItems.ECHOVIUM_PICKAXE.get());
+                        output.accept(ModItems.ECHOVIUM_AXE.get());
+                        output.accept(ModItems.ECHOVIUM_HOE.get());
+                        output.accept(ModItems.ECHOVIUM_SWORD.get());
+
+                        output.accept(ModItems.ECHOVIUM_HELMET.get());
+                        output.accept(ModItems.ECHOVIUM_CHESTPLATE.get());
+                        output.accept(ModItems.ECHOVIUM_LEGGINGS.get());
+                        output.accept(ModItems.ECHOVIUM_BOOTS.get());
 
                     }).build());
 

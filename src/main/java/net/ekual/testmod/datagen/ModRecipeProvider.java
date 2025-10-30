@@ -45,6 +45,16 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('#', Items.DIAMOND)
                 .unlockedBy(getHasName(Items.ECHO_SHARD), has(Items.ECHO_SHARD)).save(pRecipeOutput);
 
+        ShapedRecipeBuilder.shaped(RecipeCategory.MISC, ModItems.ECHOVIUM_UPGRADE_SMITHING_TEMPLATE.get(), 2)
+                .pattern("#A#")
+                .pattern("#B#")
+                .pattern("###")
+                .define('A', ModItems.ECHOVIUM_UPGRADE_SMITHING_TEMPLATE.get())
+                .define('#', Items.DIAMOND)
+                .define('B', Items.DEEPSLATE)
+                .unlockedBy(getHasName(ModItems.ECHOVIUM_UPGRADE_SMITHING_TEMPLATE.get()),
+                        has(ModItems.ECHOVIUM_UPGRADE_SMITHING_TEMPLATE.get())).save(pRecipeOutput);
+
         ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, ModItems.ECHOVIUM.get(), 9)
                 .requires(ModBlocks.ECHOVIUM_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.ECHOVIUM_BLOCK.get()), has(ModBlocks.ECHOVIUM_BLOCK.get()))
@@ -54,6 +64,36 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .requires(ModBlocks.ECHO_GEM_BLOCK.get())
                 .unlockedBy(getHasName(ModBlocks.ECHO_GEM_BLOCK.get()), has(ModBlocks.ECHO_GEM_BLOCK.get()))
                 .save(pRecipeOutput, TestMod.MOD_ID + ":echo_gem_from_echo_gem_block");
+
+        SmithingTransformRecipeBuilder.smithing(Ingredient.of(ModItems.ECHOVIUM_UPGRADE_SMITHING_TEMPLATE.get()),
+                Ingredient.of(Items.NETHERITE_PICKAXE),
+                Ingredient.of(ModItems.ECHOVIUM.get()),
+                RecipeCategory.MISC, ModItems.ECHOVIUM_PICKAXE.get()).unlocks("has_echovium",
+                has(ModItems.ECHOVIUM.get())).save(pRecipeOutput, TestMod.MOD_ID + ":echovium_pickaxe_upgrade");
+
+        SmithingTransformRecipeBuilder.smithing(Ingredient.of(ModItems.ECHOVIUM_UPGRADE_SMITHING_TEMPLATE.get()),
+                Ingredient.of(Items.NETHERITE_AXE),
+                Ingredient.of(ModItems.ECHOVIUM.get()),
+                RecipeCategory.MISC, ModItems.ECHOVIUM_AXE.get()).unlocks("has_echovium",
+                has(ModItems.ECHOVIUM.get())).save(pRecipeOutput, TestMod.MOD_ID + ":echovium_axe_upgrade");
+
+        SmithingTransformRecipeBuilder.smithing(Ingredient.of(ModItems.ECHOVIUM_UPGRADE_SMITHING_TEMPLATE.get()),
+                Ingredient.of(Items.NETHERITE_SHOVEL),
+                Ingredient.of(ModItems.ECHOVIUM.get()),
+                RecipeCategory.MISC, ModItems.ECHOVIUM_SHOVEL.get()).unlocks("has_echovium",
+                has(ModItems.ECHOVIUM.get())).save(pRecipeOutput, TestMod.MOD_ID + ":echovium_shovel_upgrade");
+
+        SmithingTransformRecipeBuilder.smithing(Ingredient.of(ModItems.ECHOVIUM_UPGRADE_SMITHING_TEMPLATE.get()),
+                Ingredient.of(Items.NETHERITE_SWORD),
+                Ingredient.of(ModItems.ECHOVIUM.get()),
+                RecipeCategory.MISC, ModItems.ECHOVIUM_SWORD.get()).unlocks("has_echovium",
+                has(ModItems.ECHOVIUM.get())).save(pRecipeOutput, TestMod.MOD_ID + ":echovium_sword_upgrade");
+
+        SmithingTransformRecipeBuilder.smithing(Ingredient.of(ModItems.ECHOVIUM_UPGRADE_SMITHING_TEMPLATE.get()),
+                Ingredient.of(Items.NETHERITE_HOE),
+                Ingredient.of(ModItems.ECHOVIUM.get()),
+                RecipeCategory.MISC, ModItems.ECHOVIUM_HOE.get()).unlocks("has_echovium",
+                has(ModItems.ECHOVIUM.get())).save(pRecipeOutput, TestMod.MOD_ID + ":echovium_hoe_upgrade");
 
     }
 

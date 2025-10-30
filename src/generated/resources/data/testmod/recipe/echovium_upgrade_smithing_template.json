@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "A": {
+      "item": "testmod:echovium_upgrade_smithing_template"
+    },
+    "B": {
+      "item": "minecraft:deepslate"
+    }
+  },
+  "pattern": [
+    "#A#",
+    "#B#",
+    "###"
+  ],
+  "result": {
+    "count": 2,
+    "id": "testmod:echovium_upgrade_smithing_template"
+  }
+}
