@@ -1,6 +1,7 @@
 package net.ekual.testmod.item;
 
 import net.ekual.testmod.TestMod;
+import net.ekual.testmod.item.custom.ModArmorItem;
 import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
@@ -64,17 +65,17 @@ public class ModItems {
                     .attributes(HoeItem.createAttributes(ModToolTiers.ECHOVIUM, -4, 1f))));
 
     public static final RegistryObject<Item> ECHOVIUM_HELMET = ITEMS.register("echovium_helmet",
-            () -> new ArmorItem(ModArmorMaterials.ECHOVIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
-                    new Item.Properties().durability(ArmorItem.Type.HELMET.getDurability(41))));
+            () -> new ModArmorItem(ModArmorMaterials.ECHOVIUM_ARMOR_MATERIAL, ArmorItem.Type.HELMET,
+                    new Item.Properties().fireResistant().durability(ArmorItem.Type.HELMET.getDurability(47))));
     public static final RegistryObject<Item> ECHOVIUM_CHESTPLATE = ITEMS.register("echovium_chestplate",
             () -> new ArmorItem(ModArmorMaterials.ECHOVIUM_ARMOR_MATERIAL, ArmorItem.Type.CHESTPLATE,
-                    new Item.Properties().durability(ArmorItem.Type.CHESTPLATE.getDurability(41))));
+                    new Item.Properties().fireResistant().durability(ArmorItem.Type.CHESTPLATE.getDurability(47))));
     public static final RegistryObject<Item> ECHOVIUM_LEGGINGS = ITEMS.register("echovium_leggings",
             () -> new ArmorItem(ModArmorMaterials.ECHOVIUM_ARMOR_MATERIAL, ArmorItem.Type.LEGGINGS,
-                    new Item.Properties().durability(ArmorItem.Type.LEGGINGS.getDurability(41))));
+                    new Item.Properties().fireResistant().durability(ArmorItem.Type.LEGGINGS.getDurability(47))));
     public static final RegistryObject<Item> ECHOVIUM_BOOTS = ITEMS.register("echovium_boots",
             () -> new ArmorItem(ModArmorMaterials.ECHOVIUM_ARMOR_MATERIAL, ArmorItem.Type.BOOTS,
-                    new Item.Properties().durability(ArmorItem.Type.BOOTS.getDurability(41))));
+                    new Item.Properties().fireResistant().durability(ArmorItem.Type.BOOTS.getDurability(47))));
 
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
