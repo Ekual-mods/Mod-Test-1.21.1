@@ -8,6 +8,7 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
 
+//Adds custom tags that can be added to blocks and items
 public class ModTags {
     public static class Blocks{
         public static final TagKey<Block> NEEDS_ECHOVIUM_TOOL = createTag("needs_echovium_tool");

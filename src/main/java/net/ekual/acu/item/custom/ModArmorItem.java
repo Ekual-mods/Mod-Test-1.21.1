@@ -14,6 +14,7 @@ import net.minecraft.world.level.Level;
 import java.util.List;
 import java.util.Map;
 
+//This class is used for ensuring our player has the correct armor pieces on to provide an effect in game
 public class ModArmorItem extends ArmorItem {
     private static final Map<Holder<ArmorMaterial>, List<MobEffectInstance>> MATERIAL_TO_EFFECT_MAP =
             (new ImmutableMap.Builder<Holder<ArmorMaterial>, List<MobEffectInstance>>())

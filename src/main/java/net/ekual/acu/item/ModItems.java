@@ -13,6 +13,7 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.List;
 
+//Defines and registers various items and tools into the game
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, ACU.MOD_ID);

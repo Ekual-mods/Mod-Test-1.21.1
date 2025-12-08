@@ -17,6 +17,7 @@ import java.util.EnumMap;
 import java.util.List;
 import java.util.function.Supplier;
 
+//Used for defining custom armor values
 public class ModArmorMaterials {
     public static final Holder<ArmorMaterial> ECHOVIUM_ARMOR_MATERIAL = register("echovium", Util.make(new EnumMap<>(ArmorItem.Type.class),
             attribute -> {

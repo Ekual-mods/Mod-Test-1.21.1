@@ -10,6 +10,7 @@ import net.minecraftforge.event.entity.living.LivingDamageEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 
+//This class creates an event to increase the ingame damage of an item when used on a certain entity
 @Mod.EventBusSubscriber(modid = ACU.MOD_ID)
 public class EchoviumBonusDamageHandler {
 
