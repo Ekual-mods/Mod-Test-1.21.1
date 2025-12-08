@@ -30,7 +30,7 @@ public class EchoviumBonusDamageHandler {
                 heldItem.is(ModItems.ECHOVIUM_SHOVEL.get()) ||
                 heldItem.is(ModItems.ECHOVIUM_HOE.get())) {
 
-            // TEMP: only for Wardens (you can change to tag later)
+            // TEMP: only for Wardens (will change to tag later)
             if (target.getType() == EntityType.WARDEN) {
                 float baseDamage = 0f;
 
@@ -48,7 +48,7 @@ public class EchoviumBonusDamageHandler {
                 float bonus = baseDamage * 2.5f;
                 event.setAmount(event.getAmount() + bonus);
 
-                TestMod.LOGGER.info("💥 Echovium bonus applied! +{} damage to Warden", bonus);
+                TestMod.LOGGER.info("Echovium bonus applied! +{} damage to Warden", bonus);
             }
         }
     }
