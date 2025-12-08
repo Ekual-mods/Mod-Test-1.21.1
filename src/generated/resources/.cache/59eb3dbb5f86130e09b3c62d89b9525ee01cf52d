@@ -1,3 +1,3 @@
-// 1.21.1	2025-10-28T22:32:40.1332212	Loot Tables
-d0b575c3c2e5c53e9c8922e619b0f70e397e7cd5 data/testmod/loot_table/blocks/echovium_block.json
-b53cedf48be7b71cf3c74ab419c439efcb45c08a data/testmod/loot_table/blocks/echo_gem_block.json
+// 1.21.1	2025-12-07T22:49:13.6680689	Loot Tables
+17e2588b735a175e2122cc63779a92ee14510a48 data/acu/loot_table/blocks/echovium_block.json
+2bd53da73055b3996cbf528e167741c0f9efb9c4 data/acu/loot_table/blocks/echo_gem_block.json

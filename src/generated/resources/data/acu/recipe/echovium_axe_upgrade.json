@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:smithing_transform",
+  "addition": {
+    "item": "acu:echovium"
+  },
+  "base": {
+    "item": "minecraft:netherite_axe"
+  },
+  "result": {
+    "count": 1,
+    "id": "acu:echovium_axe"
+  },
+  "template": {
+    "item": "acu:echovium_upgrade_smithing_template"
+  }
+}

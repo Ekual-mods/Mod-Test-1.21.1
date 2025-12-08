@@ -1,0 +1,32 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_echovium": {
+      "conditions": {
+        "items": [
+          {
+            "items": "acu:echovium"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "acu:echovium_hoe_upgrade"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_echovium"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "acu:echovium_hoe_upgrade"
+    ]
+  }
+}

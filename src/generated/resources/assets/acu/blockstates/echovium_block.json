@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "acu:block/echovium_block"
+    }
+  }
+}

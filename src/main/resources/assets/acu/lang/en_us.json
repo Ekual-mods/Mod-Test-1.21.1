@@ -1,0 +1,29 @@
+{
+  "item.acu.echovium": "Echovium Ingot",
+  "item.acu.echo_gem": "Echo Gem",
+  "item.acu.echovium_upgrade_smithing_template": "Smithing Template",
+
+  "item.acu.echovium_shovel": "Echovium Shovel",
+  "item.acu.echovium_pickaxe": "Echovium Pickaxe",
+  "item.acu.echovium_axe": "Echovium Axe",
+  "item.acu.echovium_hoe": "Echovium Hoe",
+  "item.acu.echovium_sword": "Echovium Sword",
+
+  "item.acu.echovium_helmet": "Echovium Helmet",
+  "item.acu.echovium_chestplate": "Echovium Chestplate",
+  "item.acu.echovium_leggings": "Echovium Leggings",
+  "item.acu.echovium_boots": "Echovium Boots",
+
+  "item.acu.echovium_upgrade.applies_to": "Netherite Equipment",
+  "item.acu.echovium_upgrade.ingredients": "Echovium Ingot",
+  "item.acu.echovium_upgrade.title": "Echovium Upgrade",
+  "item.acu.echovium_upgrade.base_slot_description": "Add netherite armor, weapon, or tool",
+  "item.acu.echovium_upgrade.additions_slot_description": "Add Echovium Ingot",
+
+  "block.acu.echovium_block": "Block of Echovium",
+  "block.acu.echo_gem_block": "Block of Echo Gem",
+  "block.acu.echo_catalyst": "Echo Catalyst",
+
+  "creativetab.acu.echo_items": "Echovium Items",
+  "creativetab.acu.echo_gear": "Echovium Gear"
+}

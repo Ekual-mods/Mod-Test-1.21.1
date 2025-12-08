@@ -1,5 +1,0 @@
-// 1.21.1	2025-10-29T17:09:15.396347	Tags for minecraft:block mod id testmod
-8860579bfdacb374a26d1d13a0c43c3f65dbf478 data/minecraft/tags/block/mineable/pickaxe.json
-8860579bfdacb374a26d1d13a0c43c3f65dbf478 data/minecraft/tags/block/needs_diamond_tool.json
-cef9ea2e5ce82a2e749328b2ef95700acfba60ac data/testmod/tags/block/incorrect_for_echovium_tool.json
-a249c46329a41538f49a564e1f14338aaf1be5a0 data/testmod/tags/block/needs_echovium_tool.json
