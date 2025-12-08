@@ -12,12 +12,12 @@ The goal is to expand and enhance the Deep Dark and Ancient City by adding new i
 - Data generation for recipes, tags, and models
 
 **Main Java Files:**
-ACU.java – Main mod class
-ModItems.java – Registers all custom items
-ModArmorMaterials.java – Defines Echovium armor stats
-ModArmorItem.java – Custom armor behavior
-EchoviumBonusDamageHandler.java – Adds bonus damage to the Warden
-DataGenerators.java – Generates JSON data (recipes, tags, etc.)
+- ACU.java – Main mod class
+- ModItems.java – Registers all custom items
+- ModArmorMaterials.java – Defines Echovium armor stats
+- ModArmorItem.java – Custom armor behavior
+- EchoviumBonusDamageHandler.java – Adds bonus damage to the Warden
+- DataGenerators.java – Generates JSON data (recipes, tags, etc.)
 
 **How to Run the Mod:**
 - Clone the repository
