@@ -5,7 +5,7 @@
  * @version: 0.1
  *
  * This program sets the Armor, Armor Toughness, Knockback Resistance,
- * and Enchantability values of each piece of Echovium armor
+ * Enchantability, and material values of each piece of Echovium armor
  */
 
 package net.ekual.acu.item;

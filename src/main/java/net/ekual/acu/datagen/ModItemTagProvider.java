@@ -4,7 +4,7 @@
  * @author: Corbin Webber
  * @version: 0.1
  *
- * This program defines custom tags for items for the DataGenerator
+ * This program defines custom tags for items for the Data Generator
  */
 
 package net.ekual.acu.datagen;

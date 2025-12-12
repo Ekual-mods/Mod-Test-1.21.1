@@ -5,7 +5,7 @@
  * @version: 0.1
  *
  * This program is used as the "main hub" for the mod,
- * it's where everything gets registered into the game.
+ * it's where everything gets registered into the game
  */
 
 package net.ekual.acu;

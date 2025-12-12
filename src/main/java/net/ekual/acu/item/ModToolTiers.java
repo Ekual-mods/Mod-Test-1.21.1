@@ -5,10 +5,10 @@
  * @version: 0.1
  *
  * This program adds a custom tier to define durability, speed,
- * attack damage, and enchantability as a base for the tools.
+ * attack damage, and enchantability as a base for the tools
  *
  * It also adds custom tags that can be applied to blocks for if
- * an Echovium tool can only be used to break it.
+ * an Echovium tool can only be used to break it
  */
 
 package net.ekual.acu.item;

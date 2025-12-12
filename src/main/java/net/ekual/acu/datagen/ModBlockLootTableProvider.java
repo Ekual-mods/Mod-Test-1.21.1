@@ -4,7 +4,7 @@
  * @author: Corbin Webber
  * @version: 0.1
  *
- * This program defines the "Loot Table" for blocks for the DataGenerator
+ * This program defines the "Loot Table" for blocks for the Data Generator
  */
 
 package net.ekual.acu.datagen;

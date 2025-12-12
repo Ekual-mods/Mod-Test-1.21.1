@@ -4,9 +4,9 @@
  * @author: Corbin Webber
  * @version: 0.1
  *
- * This program adds custom tabs to the Creative Mode inventory inside the game.
+ * This program adds custom tabs to the Creative Mode inventory inside the game
  *
- * It also lets me define which items go in which tab.
+ * It also lets me define which items go in which tab
  */
 
 package net.ekual.acu.item;

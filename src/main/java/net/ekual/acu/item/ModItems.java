@@ -5,9 +5,9 @@
  * @version: 0.1
  *
  * This program defines and registers various custom items and tools into the game
- * such as armor, tools/weapons, and the Echovium Upgrade Smithing Template.
+ * such as armor, tools/weapons, and the Echovium Upgrade Smithing Template
  *
- * It also adds customization to the smithing table for use with Echovium.
+ * It also adds customization to the smithing table for use with Echovium
  */
 
 package net.ekual.acu.item;

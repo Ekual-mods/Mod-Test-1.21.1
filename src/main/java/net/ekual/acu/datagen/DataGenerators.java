@@ -5,7 +5,7 @@
  * @version: 0.1
  *
  * This program handles all of the data generation for the mod and automatically creates JSON files
- * for loot tables, block/items, tags, and recipes so they don't need to be individually hand written.
+ * for loot tables, block/items, tags, and recipes so they don't need to be individually hand written
  */
 
 package net.ekual.acu.datagen;
