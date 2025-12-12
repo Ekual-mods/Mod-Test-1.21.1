@@ -4,7 +4,7 @@
  * @author: Corbin Webber
  * @version: 0.1
  *
- * This is an example config file used for Forge's config APIs
+ * This is an example config file used for Forge's config API
  */
 
 package net.ekual.acu;
