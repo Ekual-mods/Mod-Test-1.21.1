@@ -1,3 +1,13 @@
+/**
+ * Ancient City Update
+ *
+ * @author: Corbin Webber
+ * @version: 0.1
+ *
+ * This program handles all of the data generation for the mod and automatically creates JSON files
+ * for loot tables, block/items, tags, and recipes so they don't need to be individually hand written.
+ */
+
 package net.ekual.acu.datagen;
 
 import net.ekual.acu.ACU;
@@ -16,8 +26,6 @@ import java.util.Collections;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
-//This class handles all of the data generation for the mod and automatically creates JSON files for loot tables, block/items, tags,
-// and recipes so they don't need to be individually hand written.
 @Mod.EventBusSubscriber(modid = ACU.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class DataGenerators {
     @SubscribeEvent

@@ -1,3 +1,13 @@
+/**
+ * Ancient City Update
+ *
+ * @author: Corbin Webber
+ * @version: 0.1
+ *
+ * This program adds an effect to the player based on
+ * if they have a full set of Echovium armor equipped.
+ */
+
 package net.ekual.acu.item.custom;
 
 import com.google.common.collect.ImmutableMap;

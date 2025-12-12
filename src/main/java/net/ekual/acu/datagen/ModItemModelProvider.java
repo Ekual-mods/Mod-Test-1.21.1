@@ -1,3 +1,12 @@
+/**
+ * Ancient City Update
+ *
+ * @author: Corbin Webber
+ * @version: 0.1
+ *
+ * This program defines the model for items for the DataGenerator
+ */
+
 package net.ekual.acu.datagen;
 
 import net.ekual.acu.ACU;
@@ -18,7 +27,6 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.LinkedHashMap;
 
-//Defines the model for items for the DataGenerator
 public class ModItemModelProvider extends ItemModelProvider {
     private static LinkedHashMap<ResourceKey<TrimMaterial>, Float> trimMaterials = new LinkedHashMap<>();
     static {

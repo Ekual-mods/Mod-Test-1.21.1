@@ -1,3 +1,12 @@
+/**
+ * Ancient City Update
+ *
+ * @author: Corbin Webber
+ * @version: 0.1
+ *
+ * This program defined the behaviour for custom blocks.
+ */
+
 package net.ekual.acu.block;
 
 import net.ekual.acu.ACU;

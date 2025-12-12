@@ -1,3 +1,13 @@
+/**
+ * Ancient City Update
+ *
+ * @author: Corbin Webber
+ * @version: 0.1
+ *
+ * This program sets the Armor, Armor Toughness, Knockback Resistance,
+ * and Enchantability values of each piece of Echovium armor
+ */
+
 package net.ekual.acu.item;
 
 import net.ekual.acu.ACU;

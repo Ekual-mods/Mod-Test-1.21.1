@@ -1,3 +1,13 @@
+/**
+ * Ancient City Update
+ *
+ * @author: Corbin Webber
+ * @version: 0.1
+ *
+ * This is a placeholder class for future updates
+ * such as a custom dimension.
+ */
+
 package net.ekual.acu.event;
 
 import net.ekual.acu.ACU;

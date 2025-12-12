@@ -1,3 +1,12 @@
+/**
+ * Ancient City Update
+ *
+ * @author: Corbin Webber
+ * @version: 0.1
+ *
+ * This program defines custom tags for blocks for the DataGenerator
+ */
+
 package net.ekual.acu.datagen;
 
 import net.ekual.acu.ACU;
@@ -12,7 +21,6 @@ import org.jetbrains.annotations.Nullable;
 
 import java.util.concurrent.CompletableFuture;
 
-//Defines custom tags for blocks for the DataGenerator
 public class ModBlockTagProvider extends BlockTagsProvider {
     public ModBlockTagProvider(PackOutput output, CompletableFuture<HolderLookup.Provider> lookupProvider, @Nullable ExistingFileHelper existingFileHelper) {
         super(output, lookupProvider, ACU.MOD_ID, existingFileHelper);

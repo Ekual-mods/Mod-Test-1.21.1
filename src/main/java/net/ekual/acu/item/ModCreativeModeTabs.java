@@ -1,3 +1,14 @@
+/**
+ * Ancient City Update
+ *
+ * @author: Corbin Webber
+ * @version: 0.1
+ *
+ * This program adds custom tabs to the Creative Mode inventory inside the game.
+ *
+ * It also lets me define which items go in which tab.
+ */
+
 package net.ekual.acu.item;
 
 import net.ekual.acu.ACU;
@@ -10,7 +21,6 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.RegistryObject;
 
-//Used for adding custom tabs to the Creative Mode inventory inside the game
 public class ModCreativeModeTabs {
     public static final DeferredRegister<CreativeModeTab> CREATIVE_MODE_TABS =
             DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ACU.MOD_ID);

@@ -1,3 +1,12 @@
+/**
+ * Ancient City Update
+ *
+ * @author: Corbin Webber
+ * @version: 0.1
+ *
+ * This is an example config file used for Forge's config APIs
+ */
+
 package net.ekual.acu;
 
 import net.minecraft.resources.ResourceLocation;
@@ -13,7 +22,6 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 // An example config class. This is not required, but it's a good idea to have one to keep your config organized.
-// Demonstrates how to use Forge's config APIs
 @Mod.EventBusSubscriber(modid = ACU.MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
 public class Config
 {

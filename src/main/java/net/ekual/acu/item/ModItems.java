@@ -1,3 +1,15 @@
+/**
+ * Ancient City Update
+ *
+ * @author: Corbin Webber
+ * @version: 0.1
+ *
+ * This program defines and registers various custom items and tools into the game
+ * such as armor, tools/weapons, and the Echovium Upgrade Smithing Template.
+ *
+ * It also adds customization to the smithing table for use with Echovium.
+ */
+
 package net.ekual.acu.item;
 
 import net.ekual.acu.ACU;
@@ -13,7 +25,6 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.List;
 
-//Defines and registers various items and tools into the game
 public class ModItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, ACU.MOD_ID);

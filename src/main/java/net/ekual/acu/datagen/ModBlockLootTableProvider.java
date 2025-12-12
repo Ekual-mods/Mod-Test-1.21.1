@@ -1,3 +1,12 @@
+/**
+ * Ancient City Update
+ *
+ * @author: Corbin Webber
+ * @version: 0.1
+ *
+ * This program defines the "Loot Table" for blocks for the DataGenerator
+ */
+
 package net.ekual.acu.datagen;
 
 import net.ekual.acu.block.ModBlocks;
@@ -18,7 +27,6 @@ import net.minecraftforge.registries.RegistryObject;
 
 import java.util.Set;
 
-//Defines the "Loot Table" for blocks for the DataGenerator
 public class ModBlockLootTableProvider extends BlockLootSubProvider {
     protected ModBlockLootTableProvider(HolderLookup.Provider pRegistries) {
         super(Set.of(), FeatureFlags.REGISTRY.allFlags(), pRegistries);

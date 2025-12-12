@@ -1,3 +1,13 @@
+/**
+ * Ancient City Update
+ *
+ * @author: Corbin Webber
+ * @version: 0.1
+ *
+ * This program creates increased damage values for certain mobs
+ * using the defined weapons/tools.
+ */
+
 package net.ekual.acu.event;
 
 import net.ekual.acu.ACU;

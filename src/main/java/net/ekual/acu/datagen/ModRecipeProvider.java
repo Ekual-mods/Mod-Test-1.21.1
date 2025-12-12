@@ -1,3 +1,12 @@
+/**
+ * Ancient City Update
+ *
+ * @author: Corbin Webber
+ * @version: 0.1
+ *
+ * This program defines custom recipes for the DataGenerator
+ */
+
 package net.ekual.acu.datagen;
 
 import net.ekual.acu.ACU;
@@ -14,7 +23,6 @@ import net.minecraftforge.common.crafting.conditions.IConditionBuilder;
 import java.util.List;
 import java.util.concurrent.CompletableFuture;
 
-//Defines custom recipes for the DataGenerator
 public class ModRecipeProvider extends RecipeProvider implements IConditionBuilder {
     public ModRecipeProvider(PackOutput pOutput, CompletableFuture<HolderLookup.Provider> pRegistries) {
         super(pOutput, pRegistries);
